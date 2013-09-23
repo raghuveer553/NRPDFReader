@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450F69D217EAB33E003F94BA /* NRThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F69D117EAB33E003F94BA /* NRThumbnailCell.m */; };
+		450F69D917EAB6FE003F94BA /* NRPDFPageDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F69D817EAB6FE003F94BA /* NRPDFPageDetails.m */; };
+		450F69DA17EAB7DF003F94BA /* PDFPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F69CE17EAB0DE003F94BA /* PDFPageRenderer.m */; };
+		453782FE17E6D30F0028C321 /* NRPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 453782FD17E6D30F0028C321 /* NRPDFDocument.m */; };
+		454B9A0A17F0222A00A008E9 /* btn_closePDF_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 454B9A0117F0222A00A008E9 /* btn_closePDF_normal.png */; };
+		454B9A0B17F0222A00A008E9 /* btn_closePDF_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 454B9A0217F0222A00A008E9 /* btn_closePDF_normal@2x.png */; };
+		454B9A0C17F0222A00A008E9 /* btn_closePDF_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 454B9A0317F0222A00A008E9 /* btn_closePDF_pressed.png */; };
+		454B9A0D17F0222A00A008E9 /* btn_closePDF_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 454B9A0417F0222A00A008E9 /* btn_closePDF_pressed@2x.png */; };
+		454B9A0E17F0222A00A008E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 454B9A0517F0222A00A008E9 /* Default-568h@2x.png */; };
+		454B9A0F17F0222A00A008E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 454B9A0617F0222A00A008E9 /* Default.png */; };
+		454B9A1017F0222A00A008E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 454B9A0717F0222A00A008E9 /* Default@2x.png */; };
+		454B9A1117F0222A00A008E9 /* pdf_frame_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 454B9A0817F0222A00A008E9 /* pdf_frame_highlight.png */; };
+		454B9A1217F0222A00A008E9 /* pdf_frame_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 454B9A0917F0222A00A008E9 /* pdf_frame_highlight@2x.png */; };
 		45ADDDCD17DF5011003F3BE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ADDDCC17DF5011003F3BE9 /* UIKit.framework */; };
 		45ADDDCF17DF5011003F3BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ADDDCE17DF5011003F3BE9 /* Foundation.framework */; };
 		45ADDDD117DF5011003F3BE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ADDDD017DF5011003F3BE9 /* CoreGraphics.framework */; };
 		45ADDDD717DF5011003F3BE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45ADDDD517DF5011003F3BE9 /* InfoPlist.strings */; };
 		45ADDDD917DF5011003F3BE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADDDD817DF5011003F3BE9 /* main.m */; };
 		45ADDDDD17DF5011003F3BE9 /* NRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADDDDC17DF5011003F3BE9 /* NRAppDelegate.m */; };
-		45ADDDDF17DF5011003F3BE9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45ADDDDE17DF5011003F3BE9 /* Default.png */; };
-		45ADDDE117DF5011003F3BE9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45ADDDE017DF5011003F3BE9 /* Default@2x.png */; };
-		45ADDDE317DF5011003F3BE9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45ADDDE217DF5011003F3BE9 /* Default-568h@2x.png */; };
 		45ADDDEF17DF5278003F3BE9 /* NRPDFReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADDDED17DF5278003F3BE9 /* NRPDFReaderViewController.m */; };
 		45ADDDF017DF5278003F3BE9 /* NRPDFReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45ADDDEE17DF5278003F3BE9 /* NRPDFReaderViewController.xib */; };
 		45ADDDF417DF52C5003F3BE9 /* NRInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADDDF217DF52C5003F3BE9 /* NRInitialViewController.m */; };
@@ -24,6 +34,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450F69CD17EAB0DE003F94BA /* PDFPageRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFPageRenderer.h; sourceTree = "<group>"; };
+		450F69CE17EAB0DE003F94BA /* PDFPageRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFPageRenderer.m; sourceTree = "<group>"; };
+		450F69D017EAB33E003F94BA /* NRThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRThumbnailCell.h; sourceTree = "<group>"; };
+		450F69D117EAB33E003F94BA /* NRThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRThumbnailCell.m; sourceTree = "<group>"; };
+		450F69D717EAB6FE003F94BA /* NRPDFPageDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRPDFPageDetails.h; sourceTree = "<group>"; };
+		450F69D817EAB6FE003F94BA /* NRPDFPageDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRPDFPageDetails.m; sourceTree = "<group>"; };
+		453782FC17E6D30F0028C321 /* NRPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRPDFDocument.h; sourceTree = "<group>"; };
+		453782FD17E6D30F0028C321 /* NRPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRPDFDocument.m; sourceTree = "<group>"; };
+		454B9A0117F0222A00A008E9 /* btn_closePDF_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_closePDF_normal.png; sourceTree = "<group>"; };
+		454B9A0217F0222A00A008E9 /* btn_closePDF_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_closePDF_normal@2x.png"; sourceTree = "<group>"; };
+		454B9A0317F0222A00A008E9 /* btn_closePDF_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_closePDF_pressed.png; sourceTree = "<group>"; };
+		454B9A0417F0222A00A008E9 /* btn_closePDF_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_closePDF_pressed@2x.png"; sourceTree = "<group>"; };
+		454B9A0517F0222A00A008E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		454B9A0617F0222A00A008E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		454B9A0717F0222A00A008E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		454B9A0817F0222A00A008E9 /* pdf_frame_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdf_frame_highlight.png; sourceTree = "<group>"; };
+		454B9A0917F0222A00A008E9 /* pdf_frame_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pdf_frame_highlight@2x.png"; sourceTree = "<group>"; };
 		45ADDDC817DF5011003F3BE9 /* NRPDFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRPDFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45ADDDCC17DF5011003F3BE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		45ADDDCE17DF5011003F3BE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +61,6 @@
 		45ADDDDA17DF5011003F3BE9 /* NRPDFReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NRPDFReader-Prefix.pch"; sourceTree = "<group>"; };
 		45ADDDDB17DF5011003F3BE9 /* NRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAppDelegate.h; sourceTree = "<group>"; };
 		45ADDDDC17DF5011003F3BE9 /* NRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAppDelegate.m; sourceTree = "<group>"; };
-		45ADDDDE17DF5011003F3BE9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		45ADDDE017DF5011003F3BE9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		45ADDDE217DF5011003F3BE9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		45ADDDEC17DF5278003F3BE9 /* NRPDFReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRPDFReaderViewController.h; sourceTree = "<group>"; };
 		45ADDDED17DF5278003F3BE9 /* NRPDFReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRPDFReaderViewController.m; sourceTree = "<group>"; };
 		45ADDDEE17DF5278003F3BE9 /* NRPDFReaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NRPDFReaderViewController.xib; sourceTree = "<group>"; };
@@ -60,6 +84,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450F69CF17EAB286003F94BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				450F69D017EAB33E003F94BA /* NRThumbnailCell.h */,
+				450F69D117EAB33E003F94BA /* NRThumbnailCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		454B9A0017F0222A00A008E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				454B9A0117F0222A00A008E9 /* btn_closePDF_normal.png */,
+				454B9A0217F0222A00A008E9 /* btn_closePDF_normal@2x.png */,
+				454B9A0317F0222A00A008E9 /* btn_closePDF_pressed.png */,
+				454B9A0417F0222A00A008E9 /* btn_closePDF_pressed@2x.png */,
+				454B9A0517F0222A00A008E9 /* Default-568h@2x.png */,
+				454B9A0617F0222A00A008E9 /* Default.png */,
+				454B9A0717F0222A00A008E9 /* Default@2x.png */,
+				454B9A0817F0222A00A008E9 /* pdf_frame_highlight.png */,
+				454B9A0917F0222A00A008E9 /* pdf_frame_highlight@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		45ADDDBD17DF5011003F3BE9 = {
 			isa = PBXGroup;
 			children = (
@@ -90,10 +139,14 @@
 		45ADDDD217DF5011003F3BE9 /* NRPDFReader */ = {
 			isa = PBXGroup;
 			children = (
-				45ADDDEA17DF523B003F3BE9 /* Modals */,
 				45ADDDEB17DF523B003F3BE9 /* ViewControllers */,
+				45ADDDEA17DF523B003F3BE9 /* Modals */,
+				450F69CF17EAB286003F94BA /* Views */,
+				454B9A0017F0222A00A008E9 /* Images */,
 				45ADDDDB17DF5011003F3BE9 /* NRAppDelegate.h */,
 				45ADDDDC17DF5011003F3BE9 /* NRAppDelegate.m */,
+				450F69CD17EAB0DE003F94BA /* PDFPageRenderer.h */,
+				450F69CE17EAB0DE003F94BA /* PDFPageRenderer.m */,
 				45ADDDD317DF5011003F3BE9 /* Supporting Files */,
 			);
 			path = NRPDFReader;
@@ -107,9 +160,6 @@
 				45ADDDD817DF5011003F3BE9 /* main.m */,
 				45ADDDDA17DF5011003F3BE9 /* NRPDFReader-Prefix.pch */,
 				45ADDDF817DF5459003F3BE9 /* UISwitch.pdf */,
-				45ADDDDE17DF5011003F3BE9 /* Default.png */,
-				45ADDDE017DF5011003F3BE9 /* Default@2x.png */,
-				45ADDDE217DF5011003F3BE9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +167,10 @@
 		45ADDDEA17DF523B003F3BE9 /* Modals */ = {
 			isa = PBXGroup;
 			children = (
+				453782FC17E6D30F0028C321 /* NRPDFDocument.h */,
+				453782FD17E6D30F0028C321 /* NRPDFDocument.m */,
+				450F69D717EAB6FE003F94BA /* NRPDFPageDetails.h */,
+				450F69D817EAB6FE003F94BA /* NRPDFPageDetails.m */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -162,7 +216,7 @@
 			attributes = {
 				CLASSPREFIX = NR;
 				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = Sourcebits;
+				ORGANIZATIONNAME = "";
 			};
 			buildConfigurationList = 45ADDDC217DF5011003F3BE9 /* Build configuration list for PBXProject "NRPDFReader" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -187,12 +241,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				45ADDDD717DF5011003F3BE9 /* InfoPlist.strings in Resources */,
-				45ADDDDF17DF5011003F3BE9 /* Default.png in Resources */,
-				45ADDDE117DF5011003F3BE9 /* Default@2x.png in Resources */,
-				45ADDDE317DF5011003F3BE9 /* Default-568h@2x.png in Resources */,
 				45ADDDF017DF5278003F3BE9 /* NRPDFReaderViewController.xib in Resources */,
 				45ADDDF517DF52C5003F3BE9 /* NRInitialViewController.xib in Resources */,
 				45ADDDF917DF5459003F3BE9 /* UISwitch.pdf in Resources */,
+				454B9A0A17F0222A00A008E9 /* btn_closePDF_normal.png in Resources */,
+				454B9A0B17F0222A00A008E9 /* btn_closePDF_normal@2x.png in Resources */,
+				454B9A0C17F0222A00A008E9 /* btn_closePDF_pressed.png in Resources */,
+				454B9A0D17F0222A00A008E9 /* btn_closePDF_pressed@2x.png in Resources */,
+				454B9A0E17F0222A00A008E9 /* Default-568h@2x.png in Resources */,
+				454B9A0F17F0222A00A008E9 /* Default.png in Resources */,
+				454B9A1017F0222A00A008E9 /* Default@2x.png in Resources */,
+				454B9A1117F0222A00A008E9 /* pdf_frame_highlight.png in Resources */,
+				454B9A1217F0222A00A008E9 /* pdf_frame_highlight@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,10 +263,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450F69DA17EAB7DF003F94BA /* PDFPageRenderer.m in Sources */,
 				45ADDDD917DF5011003F3BE9 /* main.m in Sources */,
 				45ADDDDD17DF5011003F3BE9 /* NRAppDelegate.m in Sources */,
 				45ADDDEF17DF5278003F3BE9 /* NRPDFReaderViewController.m in Sources */,
 				45ADDDF417DF52C5003F3BE9 /* NRInitialViewController.m in Sources */,
+				453782FE17E6D30F0028C321 /* NRPDFDocument.m in Sources */,
+				450F69D217EAB33E003F94BA /* NRThumbnailCell.m in Sources */,
+				450F69D917EAB6FE003F94BA /* NRPDFPageDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +382,7 @@
 				45ADDDE817DF5011003F3BE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

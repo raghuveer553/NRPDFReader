@@ -3,11 +3,11 @@
 //  NRPDFReader
 //
 //  Created by Naveen R on 10/09/13.
-//  Copyright (c) 2013 Sourcebits. All rights reserved.
 //
 
 #import "NRInitialViewController.h"
 #import "NRPDFReaderViewController.h"
+#import "NRPDFDocument.h"
 
 @interface NRInitialViewController ()
 
@@ -27,7 +27,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,7 +42,12 @@
 
 - (IBAction)buttonAction:(id)sender
 {
-    NRPDFReaderViewController* pdfReaderViewController = [[NRPDFReaderViewController alloc] initWithNibName:@"NRPDFReaderViewController" bundle:nil];
+    // Create a NRPDFDocument's object and create NRPDFReaderViewController's object using it
+    
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"UISwitch" ofType:@"pdf"];;
+    NRPDFDocument* pdfDocument = [[NRPDFDocument alloc] initWithFilePath:filePath];
+    
+    NRPDFReaderViewController* pdfReaderViewController = [[NRPDFReaderViewController alloc] initWithPDFDocument:pdfDocument];
     [self presentViewController:pdfReaderViewController animated:YES completion:^(void){}];
 }
 @end
