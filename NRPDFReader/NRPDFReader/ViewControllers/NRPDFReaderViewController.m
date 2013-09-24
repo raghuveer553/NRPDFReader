@@ -19,7 +19,8 @@
 #define kportraitWidthforIpad 768.0f
 #define kCloseButtonY 18.0f
 
-#define kInitialBorderBetweenPages 10.0f
+#define kInitialBorderBetweenPages 10.0f    // This value you have to calculate manually after loading the PDF with UIWebView.
+                                            // I used "Free ruler" application to calculate the gap in initial state
 
 
 @interface NRPDFReaderViewController ()
